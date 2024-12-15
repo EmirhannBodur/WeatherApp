@@ -23,19 +23,20 @@
             android:orientation="horizontal">
             <EditText
                 android:id="@+id/addCity"
-                android:layout_width="340dp"
+                android:layout_width="240dp"
                 android:importantForAutofill="no"
                 android:hint="City Search.."
                 android:textColor="@color/white"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
-            <Button
+
+            <ImageButton
                 android:id="@+id/addCityBtn"
-                android:layout_width="50dp"
+                android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:layout_margin="5dp"
-                android:background="@drawable/search"
+                android:background="@drawable/deneme"
                 tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>
         <TextView
