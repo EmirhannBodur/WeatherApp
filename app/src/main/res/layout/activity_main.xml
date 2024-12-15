@@ -34,9 +34,9 @@
             <ImageButton
                 android:id="@+id/addCityBtn"
                 android:layout_width="150dp"
-                android:layout_height="50dp"
+                android:layout_height="70dp"
                 android:layout_margin="5dp"
-                android:background="@drawable/deneme"
+                android:background="@drawable/btn_desing"
                 tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>
         <TextView
@@ -81,16 +81,12 @@
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
-                <androidx.cardview.widget.CardView
-                    android:layout_width="110dp"
-                    android:layout_margin="5dp"
-                    app:cardBackgroundColor="#633F51B5"
-                    android:layout_height="100dp"
-                    app:cardCornerRadius="5dp">
                     <LinearLayout
                         android:orientation="vertical"
                         android:gravity="center"
-                        android:layout_width="110dp"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/card_view"
+                        android:layout_width="130dp"
                         android:layout_height="100dp">
                         <TextView
                             android:textColor="@color/white"
@@ -110,16 +106,11 @@
                             android:layout_width="110dp"
                             android:layout_height="wrap_content"/>
                     </LinearLayout>
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="130dp"
-                    android:layout_margin="5dp"
-                    app:cardBackgroundColor="#633F51B5"
-                    android:layout_height="100dp"
-                    app:cardCornerRadius="5dp">
                     <LinearLayout
                         android:orientation="vertical"
                         android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/card_view"
                         android:layout_width="130dp"
                         android:layout_height="100dp">
                         <TextView
@@ -141,22 +132,17 @@
                             android:layout_width="120dp"
                             android:layout_height="wrap_content"/>
                     </LinearLayout>
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="130dp"
-                    android:layout_margin="5dp"
-                    app:cardBackgroundColor="#633F51B5"
-                    android:layout_height="100dp"
-                    app:cardCornerRadius="5dp">
                     <LinearLayout
                         android:orientation="vertical"
                         android:gravity="center"
+                        android:background="@drawable/card_view"
+                        android:layout_margin="5dp"
                         android:layout_width="130dp"
                         android:layout_height="100dp">
                         <TextView
                             android:textColor="@color/white"
                             android:textAlignment="center"
-                            android:text="Maksimum Sıcaklık"
+                            android:text="Max Sıcaklık"
                             android:textSize="20sp"
                             android:layout_width="110dp"
                             android:layout_height="wrap_content"/>
@@ -169,16 +155,11 @@
                             android:layout_width="110dp"
                             android:layout_height="wrap_content"/>
                     </LinearLayout>
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="130dp"
-                    android:layout_margin="5dp"
-                    app:cardBackgroundColor="#633F51B5"
-                    android:layout_height="100dp"
-                    app:cardCornerRadius="5dp">
                     <LinearLayout
                         android:orientation="vertical"
                         android:gravity="center"
+                        android:background="@drawable/card_view"
+                        android:layout_margin="5dp"
                         android:layout_width="130dp"
                         android:layout_height="100dp">
                         <TextView
@@ -197,16 +178,11 @@
                             android:layout_width="110dp"
                             android:layout_height="wrap_content"/>
                     </LinearLayout>
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="130dp"
-                    android:layout_margin="5dp"
-                    app:cardBackgroundColor="#633F51B5"
-                    android:layout_height="100dp"
-                    app:cardCornerRadius="5dp">
                     <LinearLayout
                         android:orientation="vertical"
                         android:gravity="center"
+                        android:background="@drawable/card_view"
+                        android:layout_margin="5dp"
                         android:layout_width="130dp"
                         android:layout_height="100dp">
                         <TextView
@@ -225,16 +201,11 @@
                             android:layout_width="110dp"
                             android:layout_height="wrap_content"/>
                     </LinearLayout>
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="130dp"
-                    android:layout_margin="5dp"
-                    app:cardBackgroundColor="#633F51B5"
-                    android:layout_height="130dp"
-                    app:cardCornerRadius="5dp">
                     <LinearLayout
                         android:orientation="vertical"
                         android:gravity="center"
+                        android:background="@drawable/card_view"
+                        android:layout_margin="5dp"
                         android:layout_width="130dp"
                         android:layout_height="100dp">
                         <TextView
@@ -254,16 +225,11 @@
                             android:layout_width="130dp"
                             android:layout_height="wrap_content"/>
                     </LinearLayout>
-                </androidx.cardview.widget.CardView>
-                <androidx.cardview.widget.CardView
-                    android:layout_width="130dp"
-                    android:layout_margin="5dp"
-                    app:cardBackgroundColor="#633F51B5"
-                    android:layout_height="100dp"
-                    app:cardCornerRadius="5dp">
                     <LinearLayout
                         android:orientation="vertical"
                         android:gravity="center"
+                        android:layout_margin="5dp"
+                        android:background="@drawable/card_view"
                         android:layout_width="130dp"
                         android:layout_height="100dp">
                         <TextView
@@ -282,18 +248,17 @@
                             android:layout_width="130dp"
                             android:layout_height="wrap_content"/>
                     </LinearLayout>
-                </androidx.cardview.widget.CardView>
             </LinearLayout>
         </HorizontalScrollView>
         <LinearLayout
             android:orientation="horizontal"
+            android:layout_marginTop="5dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/forecastRec"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>
-
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
